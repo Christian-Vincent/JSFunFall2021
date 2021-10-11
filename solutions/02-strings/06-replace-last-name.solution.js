@@ -16,3 +16,7 @@ let newLastName = "Washington"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const index = fullName.indexOf(" ");
+const firstName = fullName.substring(0, index);
+fullName = firstName + " " + newLastName;

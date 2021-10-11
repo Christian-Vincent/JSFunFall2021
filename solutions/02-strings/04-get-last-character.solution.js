@@ -9,4 +9,9 @@ let str = "Wes Craven"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD:exercises/02-strings/04-get-last-character.js
 const lastCharacter = str.at(-1);
+=======
+
+const lastCharacter = str[str.length - 1];
+>>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/04-get-last-character.solution.js

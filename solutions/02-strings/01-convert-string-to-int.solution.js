@@ -6,4 +6,9 @@ let answer = "55"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD:exercises/02-strings/01-convert-string-to-int.js
 console.log(parseInt(answer));
+=======
+
+answer = parseInt(answer);
+>>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/01-convert-string-to-int.solution.js

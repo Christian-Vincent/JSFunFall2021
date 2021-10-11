@@ -16,3 +16,6 @@ let newLastName = "Washington"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let space = fullName.indexOf(" ");
+let firstName = fullName.substring(0, space);
+fullName = firstName + " " + newLastName;

@@ -16,13 +16,19 @@ let newLastName = "Washington"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD
 <<<<<<< HEAD:exercises/02-strings/06-replace-last-name.js
 let space = fullName.indexOf(" ");
 let firstName = fullName.substring(0, space);
 fullName = firstName + " " + newLastName;
 =======
+=======
+>>>>>>> 16fccf9fd01db47828d2837c3338fc4b4f92133a
 
 const index = fullName.indexOf(" ");
 const firstName = fullName.substring(0, index);
 fullName = firstName + " " + newLastName;
+<<<<<<< HEAD
 >>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/06-replace-last-name.solution.js
+=======
+>>>>>>> 16fccf9fd01db47828d2837c3338fc4b4f92133a

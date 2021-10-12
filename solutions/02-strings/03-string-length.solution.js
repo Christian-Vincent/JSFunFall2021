@@ -9,9 +9,14 @@ const str = "bananas"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD
 <<<<<<< HEAD:exercises/02-strings/03-string-length.js
 const strLength = str.length;
 =======
 
 let strLength = str.length;
 >>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/03-string-length.solution.js
+=======
+
+let strLength = str.length;
+>>>>>>> 16fccf9fd01db47828d2837c3338fc4b4f92133a

@@ -16,6 +16,7 @@ const place = "New Jersey"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD
 <<<<<<< HEAD:exercises/02-strings/05-get-last-word-in-place-name.js
 const spacePosition = place.indexOf(" ");
 const newPlace = place.substring(spacePosition);
@@ -24,3 +25,8 @@ const newPlace = place.substring(spacePosition);
 const index = place.indexOf(" ");
 const newPlace = place.substring(place.indexOf(" ") + 1);
 >>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/05-get-last-word-in-place-name.solution.js
+=======
+
+const index = place.indexOf(" ");
+const newPlace = place.substring(place.indexOf(" ") + 1);
+>>>>>>> 16fccf9fd01db47828d2837c3338fc4b4f92133a

@@ -19,9 +19,14 @@ let letter = "i"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+<<<<<<< HEAD
 <<<<<<< HEAD:exercises/02-strings/02-get-the-character-position.js
 const characterPosition = firstName.indexOf(letter);
 =======
 
 const characterPosition = firstName.indexOf(letter);
 >>>>>>> 136f3ce646cbf2a4a2aa7a538502627037f4c48f:solutions/02-strings/02-get-the-character-position.solution.js
+=======
+
+const characterPosition = firstName.indexOf(letter);
+>>>>>>> 16fccf9fd01db47828d2837c3338fc4b4f92133a

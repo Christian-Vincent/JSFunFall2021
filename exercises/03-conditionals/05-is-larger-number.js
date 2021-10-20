@@ -13,10 +13,8 @@ let num2 = 20; // e.g.
 let isLargerNumber;
 if (num2 > num1) {
   isLargerNumber = true;
-}
-if (num1 > num2) {
+} else if (num1 > num2) {
   isLargerNumber = false;
-}
-if (num1 == num2) {
+} else if (num1 == num2) {
   isLargerNumber = false;
 }

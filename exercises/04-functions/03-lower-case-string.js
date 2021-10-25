@@ -10,3 +10,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const lowerCaseString = (str1) => {
+  if (str1) {
+    return str1.toLowerCase();
+  } else {
+    return undefined;
+  }
+};

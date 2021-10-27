@@ -7,7 +7,6 @@
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 const printGreeting = (firstName) => {
-  console.log("Hello", firstName);
-  return;
+  return "Hello " + firstName + "!";
 };
 printGreeting("Tim");

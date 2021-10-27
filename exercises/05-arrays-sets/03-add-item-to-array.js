@@ -5,3 +5,6 @@ let languages = ["C++"]; // Do not change this line
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+languages[1] = "JavaScript";
+languages[2] = "Python";
+languages[3] = "C#";

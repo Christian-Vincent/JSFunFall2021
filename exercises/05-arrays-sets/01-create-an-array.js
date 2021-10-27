@@ -4,3 +4,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let restaurants = ["Applebees", "Diner Time", "Goldie's"];

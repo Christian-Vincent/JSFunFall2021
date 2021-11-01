@@ -17,7 +17,10 @@
  */
 
 const generateLinks = (links) => {
-  // WRITE YOUR ANSWER HERE
+  for (let properties in links) {
+    const newReturn = links.properties;
+    console.log(newReturn);
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.

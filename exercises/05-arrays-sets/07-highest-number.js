@@ -9,7 +9,7 @@
  */
 
 const highestNumber = (numbers) => {
-  // WRITE YOUR ANSWER HERE
+  return Math.max.apply( Math, numbers);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

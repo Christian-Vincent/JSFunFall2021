@@ -32,7 +32,7 @@ const createGraduateObject = (
   githubLink,
   linkedInLink
 ) => {
-  // WRITE YOUR ANSWER HERE
+  console.log(createGraduateObject());
 };
 
 // IGNORE THIS BELOW. It is for the tests.

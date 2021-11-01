@@ -9,7 +9,7 @@
  */
 
 const isPalindrome = (string) => {
-  // WRITE YOUR ANSWER HERE
+  return string == string.split('').reverse().join('');
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -16,11 +16,9 @@
  * // <a href="http://www.omfgdogs.com">Dogs</a><a href="https://giphy.com/search/kitten">Kittens</a><a href="https://hamster.dance/hamsterdance/">Hamster Dance</a>
  */
 
-const generateLinks = (links) => {
-  for (let properties in links) {
-    const newReturn = links.properties;
-    console.log(newReturn);
-  }
+for (let newLink in links) {
+  const myLink = links[newLink];
+  console.log(newLink + ' ' + links);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

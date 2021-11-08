@@ -26,7 +26,7 @@
  */
 
 const createGraduateObject = (
-  name,
+  name: 
   graduationYear,
   skills,
   githubLink,

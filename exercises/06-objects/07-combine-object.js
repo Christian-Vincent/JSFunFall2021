@@ -10,7 +10,7 @@
  * combineObjects(obj1, obj2); // { firstName: "Clark", lastName: "Kent" }
  */
 
-const combineObjects = (obj1, obj2) => {
+const combineObjects = (number) => {
   // WRITE YOUR ANSWER HERE
 };
 

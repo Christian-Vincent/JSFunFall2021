@@ -18,7 +18,7 @@
  */
 
 const returnObjectValues = (blogPost) => {
-  return blogPost.key();
+  return Object.values(blogPost);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -18,7 +18,7 @@
 
 for (let newLink in links) {
   const myLink = links[newLink];
-  console.log(newLink + ' ' + links);
+  console.log(newLink + ' ' + myLink);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -19,10 +19,12 @@
  * newItem.price = 10; // This should not change newItem
  */
 const addToCart = (shoppingCart, newItem) => {
-  let x = {};
-  x.shoppingCart = document.getElementById('price').value;
-  x.newItem = document.getElementById('title').value;
-  return newItem.push(x);
+  let newShopping = [];
+  for (let item of shoppingCart) {
+    newShopping.push({ ...item, });
+  }
+  newShopping.push({ ...newItem });
+  return newShopping;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

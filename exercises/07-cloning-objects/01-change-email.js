@@ -18,8 +18,11 @@
  * user.email = "icanhascheeseburger@yahoo.com"; // This should not change newUser
  */
 const changeEmail = (user, newEmail) => {
-  user.newEmail = newEmail;
-  return user;
+  const newUser = {
+    ...user,
+    email: newEmail
+  };
+  return newUser;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -25,7 +25,18 @@
  */
 
 const guessingGame = (numberOfRounds) => {
-  // WRITE YOUR ANSWER HERE
+  let guess = 0;
+  let answer = Math.floor(Math.random() * 11);
+  const userGuess = (guess) => {
+    if (guess === answer) {
+      console.log("You got it!");
+    } else if (guess > answer) {
+      console.log("Your guess is too high");
+    } else {
+      console.log("Your guess is too low");
+    }
+  };
+  userGuess();
 };
 
 // IGNORE THIS BELOW. It is for the tests.

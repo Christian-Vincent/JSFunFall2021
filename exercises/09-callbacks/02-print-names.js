@@ -11,7 +11,9 @@
  *  - Matina
  * @param {string} name instructor name
  */
-
+const printer = (name) => {
+  console.log("* " + name);
+};
 // WRITE PART 1 OF YOUR ANSWER HERE
 
 /**
@@ -28,7 +30,9 @@
  * // - Matina
  */
 const printNames = (array, callback) => {
-  // WRITE PART 2 OF YOUR ANSWER HERE
+  for(let i = 0; i < array.length; i++) {
+    callback(array[i]);
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.

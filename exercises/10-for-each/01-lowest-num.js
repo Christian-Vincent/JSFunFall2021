@@ -9,3 +9,8 @@ const numbers = [1, 10, -2, 3, 4]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const myCallback = (num, i, array) {
+  num = numbers[i];
+};
+
+numbers.forEach(myCallback);

@@ -23,9 +23,10 @@
  */
 
 const findFirst = (arrayOfNum, callback) => {
-  const result = arrayOfNum.find(callback);
-  if (result) {
-    return callback;
+  for (let i = 0; i < arrayOfNum.length; i++) {
+    if (callback(arrayOfNum[i])) {
+      return arrayOfNum[i];
+    }
   }
 };
 

@@ -24,3 +24,7 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const newPrint = (links, i) => {
+  console.log(htmlStr + links[i]);
+};
+links.forEach(newPrint);

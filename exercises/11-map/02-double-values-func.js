@@ -11,7 +11,7 @@
  */
 
 const doubleValuesFunc = (numbers) => {
-  // WRITE YOUR ANSWER HERE
+  return numbers * 2;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

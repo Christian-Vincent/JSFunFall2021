@@ -17,7 +17,8 @@
  */
 
 const createBlogList = (blogTitles) => {
-  // WRITE YOUR ANSWER HERE
+  let array = [];
+  return blogTitles.map(array);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

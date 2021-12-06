@@ -14,5 +14,5 @@ const numbers = [1, 3, 5]; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 newNumbers = numbers.map((number) => {
-  number * 2;
+  return number * 2;
 });

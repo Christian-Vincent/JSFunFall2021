@@ -8,7 +8,13 @@
    * When the clicks on the button that says "Alert Me!", it should display an alert.
    * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
    */
-  // Write your answer here
+  const newAlert = document.querySelector('.text-center');
+
+  const alertFunc = () => {
+    alert("Alert Me!");
+  };
+
+  newAlert.addEventListener("click", alertFunc);
   /**
    * Challenge 2: Disable a button that will charge a credit card.
    *
@@ -16,7 +22,14 @@
    * 1. Disable the button when it is clicked.
    * 2. Change the text to say e.g. "Loading ..." once it is clicked.
    */
-  // Write your answer here
+  const button = document.querySelector('.btn-warning');
+
+  const disButton = () => {
+    button.disabled = 'disabled';
+    button.textContent = 'Loading ...';
+  };
+
+  button.addEventListener("click", disButton);
   /**
    * Challenge 3: Show comments for the news story.
    *
@@ -27,7 +40,13 @@
    * BONUS: Clicking on the button should toggle instead of just show the comments.
    * If the comments are open, change the button text from "View Comments" to "Hide Comments".
    */
-  // Write your answer here
+  const commentsButton = document.querySelector("#comments-button");
+
+  const viewComments = () => {
+    commentsButton.querySelector(".card-body");
+  };
+
+  commentsButton.addEventListener("click", viewComments);
   /**
    * Challenge 4: Rendering what a user is typing on the page.
    *

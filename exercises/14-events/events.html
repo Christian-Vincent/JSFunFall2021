@@ -79,7 +79,7 @@
         <p><button id = "comments-button" class="btn btn-primary">View Comments</button></p>
 
         <!-- This is the comment section you need to toggle -->
-        <div class="card card-body hidden">
+        <div id = "comments" class="card card-body hidden">
           <div class="media">
             <img
               src="https://i.pravatar.cc/150?img=8"
@@ -101,6 +101,7 @@
       <div class="container">
         <!-- Capture what the user is type here -->
         <input
+          id = "input"
           type="text"
           class="form-control mb-3"
           placeholder="Enter mystery text here"
@@ -108,14 +109,14 @@
         />
 
         <!-- Display whatever text the user types in the textbox above inside the <div></div> -->
-        <div class="card bg-warning"></div>
+        <div id = "display" class="card bg-warning"></div>
       </div>
     </section>
 
     <section class="bg-dark pt-4 pb-1">
       <div class="container">
         <!-- Handle this form -->
-        <form class="form-group">
+        <form id = "myForm" class="form-group">
           <div class="input-group">
             <input
               type="search"
@@ -130,7 +131,7 @@
         </form>
 
         <!-- Display "No results for ___ found" inside of this <p></p> -->
-        <p class="text-white"></p>
+        <p id = "myFormDisplay" class="text-white"></p>
       </div>
     </section>
 
@@ -193,7 +194,7 @@
             <td>March 2021</td>
           </tr>
           <!-- Everything with class="page2" should be hidden initially when the page loads -->
-          <tr class="page2">
+          <!--<tr class="page2">
             <td>Cam Barboza</td>
             <td>Front-End Web Development</td>
             <td>March 2021</td>
@@ -242,7 +243,7 @@
             <td>Rosamund Suzuki</td>
             <td>SQL</td>
             <td>August 2021</td>
-          </tr>
+          </tr>-->
         </tbody>
       </table>
 

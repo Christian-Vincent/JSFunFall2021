@@ -40,20 +40,26 @@
    * BONUS: Clicking on the button should toggle instead of just show the comments.
    * If the comments are open, change the button text from "View Comments" to "Hide Comments".
    */
-  const commentsButton = document.querySelector("#comments-button");
+  const showCommentsButton = document.querySelector('#showComments');
+  const comments = document.querySelector('#comments');
 
-  const viewComments = () => {
-    commentsButton.querySelector(".card-body");
-  };
-
-  commentsButton.addEventListener("click", viewComments);
+  showCommentsButton.addEventListener('click', () => {
+    comments.classList.remove('hidden');
+  });
   /**
    * Challenge 4: Rendering what a user is typing on the page.
    *
    * When the user types inside the textbook labeled "Enter mystery text here",
    * it should display what the user is typing in the <div></div> tags below.
    */
-  // Write your answer here
+  const capture1 = document.querySelector('#input');
+  const capture2 = document.querySelector('#display');
+
+  const displayEvent = () => {
+    capture2.target.value;
+  };
+
+  capture1.addEventListener('input', displayEvent);
   /**
    * Challenge 5: Display the results of the world's most pointless search engine.
    *
@@ -66,7 +72,14 @@
    * The exercise must be completed with a form handler
    * and you must prevent the page from refreshing when the form is submitted.
    */
-  // Write your answer here
+  const form = document.querySelector('#myForm');
+  const theDisplay = document.querySelector('#myFormDisplay');
+
+  const formDisplay = () => {
+    theDisplay.target.value;
+  };
+
+  form.addEventListener('click', formDisplay);
   /**
    * Challenge 6: Add pagination to the student table.
    *
@@ -77,7 +90,13 @@
    * - Clicking on the "«" and "1" buttons should show everything in class="page1" and hide everything in class="page2".
    * - Clicking on the "2" and "»" buttons should show everything in class="page2" and hide everything in class="page1".
    */
-  // Write your answer here
+  const page1 = document.querySelector(".page1");
+
+  const displayPage = () => {
+    page1.target.value;
+  };
+
+  page1.addEventListener("click", displayPage);
   /**
    * Challenge 7: Agree to the terms and conditions
    *
